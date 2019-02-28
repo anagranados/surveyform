@@ -1,0 +1,146 @@
+html, body{
+	
+	
+	font-family: 'Raleway', Helvetica, sans-serif;
+    min-width: 320px;
+}
+.form-small{
+	
+	border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+   	margin: 0 auto;
+	width: 55%;
+	max-width: 900px;
+
+}
+
+
+
+h1{
+	color: #545556;
+	text-align: center;
+}
+
+p{
+	margin:1rem;
+	padding: 2rem;
+	color: #545556;
+	text-align: center;
+	font-size: 1.2rem;
+
+}
+.container{
+	display: flex;
+    margin: 1rem;
+    padding: 0.2rem 0;
+   
+}
+ select, option, input-field, button {
+	color: inherit;
+	padding: 0.2rem 1rem;
+	font-size: 1rem;
+  }
+
+label{
+	
+	flex-basis: 9rem;
+	padding-right: 1rem;
+	margin-left: 30px;
+}
+.frase{
+	flex-basis: 30rem;
+}
+.select{
+	flex-basis: 10rem;
+}
+#dropdown{
+	flex-grow: 1;
+}
+.input-field{
+	font-size:1rem; 
+	
+	width: 18rem;
+	margin-left: -3rem;
+    padding-left: -3rem;
+}
+.age{
+	margin-left: -3rem;
+    padding-left: -3rem;
+    font-size: 1rem;
+}
+
+#lista li{
+	margin-left: -6rem;
+    padding-left:-3rem;
+    font-size: 1rem;
+    list-style: none;
+   
+   
+}
+#lista2 li{
+	font-size:1rem ;
+	margin-left:  -5rem;
+	list-style: none;
+}
+#lista3{
+	margin-left:  -12rem;
+	list-style: none;
+}
+#radio{
+	color: #545556;
+	padding: 0.2rem 1rem;
+	font-size: 1rem;
+}
+#dropdown{
+	color: #545556;
+	padding: 0.2rem 1rem;
+	font-size: 1rem;
+}
+#comments{
+	color: #545556;
+	padding: 0.2rem 1rem;
+	font-size: 1rem;
+	margin-right: 1.2rem;
+}
+
+
+#boton1{
+	margin: 2rem ;
+    border-style: none;
+    font-size: 1rem;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+}
+
+#boton1:hover{
+cursor: pointer;
+box-shadow: 0px 15px 5px 0px rgba(0,0,0,0.4);
+
+}
+
+.boton{
+  text-align: center;
+  margin-bottom:  5em;
+}
+/*MEDIA QUERIES*/
+@media screen and (max-width: 750px){
+	
+	.container{
+	flex-direction: row;
+	align-content: flex-start;
+	}
+	#lista2 li{
+		
+	}
+	label{
+		margin-left: 0;
+	}
+	.input-field{
+		margin-left: 0;
+		width: 50%;
+		
+		padding: 0;
+	}
+	.form-small{
+		width: 100%;
+	}
+}
